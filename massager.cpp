@@ -106,7 +106,12 @@ int main(void)
     while (1)
     {
         /* USER CODE END WHILE */
-
+        htim3.Instance->CCR1 = 25; // duty cycle is .5 ms
+        HAL_Delay(2000);
+        htim3.Instance->CCR1 = 75; // duty cycle is 1.5 ms
+        HAL_Delay(2000);
+        htim3.Instance->CCR1 = 125; // duty cycle is 2.5 ms
+        HAL_Delay(2000);
         /* USER CODE BEGIN 3 */
     }
     /* USER CODE END 3 */
