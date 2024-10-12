@@ -4,6 +4,7 @@ Welcome to my Massage Gun Controller project! This project combines the power of
 
 ## Key Highlights
 - **STM32 Microcontroller & PWM**: The STM32 utilizes PWM to dynamically control motor speed, adjusting the strength and frequency of the massage for optimal comfort.
+- **Oscilloscope Measurements**: An oscilloscope is used to measure and fine-tune the PWM signals, ensuring accurate control of the servo motor’s movement.
 - **3D-Printed Components**: Custom parts are 3D printed to house and support the massage gun's mechanism, providing a durable and lightweight frame.
 - **Servo Motor Control**: Using a servo motor, the system efficiently translates PWM signals into percussive motions, making the device both powerful and efficient.
 - **Adjustable Intensity Levels**: Fine-tune the massage experience to your liking, whether you need a gentle massage or a deep muscle treatment.
